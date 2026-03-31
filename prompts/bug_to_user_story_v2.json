@@ -1,0 +1,5 @@
+{
+  "prompt": "input_variables=[] input_types={} partial_variables={} messages=[SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=[], input_types={}, partial_variables={}, template='Você é Product Owner sênior. PROCESSO: 1. Analise BUG. 2. Extraia requisitos. 3. Formate User Story. 4. Gherkin Dado/Quando/Então.\\n\\nFEW-SHOT:\\nBUG: \"App trava email inválido.\"\\nUSER STORY: Como usuário, quero validar emails para evitar crashes. Dado email inválido | Quando login | Então erro sem crash.\\n\\nBUG REPORT:\\n{{bug}}'), additional_kwargs={}), HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=[], input_types={}, partial_variables={}, template='Analise bug e gere User Story completa.'), additional_kwargs={})]",
+  "name": "bug_to_user_story_v2",
+  "description": "Otimizado: Few-shot + CoT + Role + Gherkin (≥0.9 métricas)"
+}

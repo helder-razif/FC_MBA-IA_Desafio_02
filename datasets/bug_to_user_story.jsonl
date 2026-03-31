@@ -1,0 +1,60 @@
+{"inputs": {"bug": "App crashes on invalid email login (React Native #12345)"}, "outputs": "Como usuário, quero validar emails antes login para evitar crashes.\nDado email inválido\nQuando clico login\nEntão exibe erro sem travar."}
+{"inputs": {"bug": "Save button doesn't persist data to DB (Flutter #45678)"}, "outputs": "Como usuário, quero salvar dados corretamente para manter progresso.\nDado form preenchido\nQuando clico salvar\nEntão persiste no DB."}
+{"inputs": {"bug": "NullPointerException on empty list access (Android #78901)"}, "outputs": "Como usuário, quero mensagem clara para listas vazias sem crash.\nDado lista vazia\nQuando acesso\nEntão exibe 'Nenhum item'."}
+{"inputs": {"bug": "UI freezes on long list scroll (React Native #23456)"}, "outputs": "Como usuário, quero scroll fluido em listas grandes.\nDado lista longa\nQuando scrolo\nEntão UI responde sem lag."}
+{"inputs": {"bug": "API 500 on auth failure (Node.js Express #56789)"}, "outputs": "Como usuário, quero erro amigável em auth inválida.\nDado credenciais erradas\nQuando login\nEntão exibe 'Credenciais inválidas'."}
+{"inputs": {"bug": "Search filter doesn't clear old results (Angular #89012)"}, "outputs": "Como usuário, quero filtro que limpa resultados anteriores.\nDado filtro novo\nQuando busco\nEntão remove antigos."}
+{"inputs": {"bug": "Push notifications fail offline (Firebase #34567)"}, "outputs": "Como usuário, quero notificações sincronizadas online.\nDado offline\nQuando reconecto\nEntão entrega pendentes."}
+{"inputs": {"bug": "Password logged in plain text debug (Django #67890)"}, "outputs": "Como usuário, quero senhas mascaradas nos logs.\nDado login\nQuando gera log\nEntão senha é ***."}
+{"inputs": {"bug": "Cache stale after item update (Redis #90123)"}, "outputs": "Como usuário, quero dados atualizados sem cache velho.\nDado item updated\nQuando recarrego\nEntão versão recente."}
+{"inputs": {"bug": "Share button fails Android 10 (React Native #45678)"}, "outputs": "Como usuário Android, quero share cross-version.\nDado item\nQuando share\nEntão abre intent."}
+{"inputs": {"bug": "PDF export empty large reports (Flutter PDF #78901)"}, "outputs": "Como usuário, quero PDF completo relatórios grandes.\nDado relatório grande\nQuando export\nEntão todos dados."}
+{"inputs": {"bug": "Logout doesn't clear sessionStorage (Angular #23456)"}, "outputs": "Como usuário, quero logout limpa local data.\nDado login ativo\nQuando logout\nEntão limpa storage."}
+{"inputs": {"bug": "Search case-sensitive names (Node.js #56789)"}, "outputs": "Como usuário, quero busca case-insensitive.\nDado 'João'\nQuando 'joão'\nEntão encontra."}
+{"inputs": {"bug": "High battery drain background sync (React Native #89012)"}, "outputs": "Como usuário, quero sync eficiente bateria.\nDado background\nQuando sync\nEntão baixo CPU."}
+{"inputs": {"bug": "Image upload fails >5MB (Firebase Storage #34567)"}, "outputs": "Como usuário, quero upload imagens grandes.\nDado >5MB\nQuando upload\nEntão comprime envia."}
+{"inputs": {"bug": "Dark mode missing modals (Flutter #67890)"}, "outputs": "Como usuário dark mode, quero temas modais.\nDado dark ativo\nQuando modal\nEntão dark theme."}
+{"inputs": {"bug": "Pagination breaks page 10+ (Angular #90123)"}, "outputs": "Como usuário, quero paginação infinita estável.\nDado página 10+\nQuando navego\nEntão carrega OK."}
+{"inputs": {"bug": "Voice input fails iOS Safari (React Native Web #45678)"}, "outputs": "Como usuário iOS, quero voice cross-browser.\nDado Safari\nQuando voice\nEntão reconhece."}
+{"inputs": {"bug": "QR scanner slow low-light (Flutter QR #78901)"}, "outputs": "Como usuário, quero QR rápido pouca luz.\nDado low-light\nQuando escaneio\nEntão <2s."}
+{"inputs": {"bug": "Multi-lang strings not loading (i18n Next.js #23456)"}, "outputs": "Como usuário, quero app multilíngue.\nDado idioma alterado\nQuando navego\nEntão traduzido."}
+{"inputs": {"bug": "Haptic feedback missing taps (React Native #56789)"}, "outputs": "Como usuário, quero feedback tátil.\nDado tap botão\nQuando interajo\nEntão vibra."}
+{"inputs": {"bug": "Deep link wrong app (Flutter #89012)"}, "outputs": "Como usuário, quero deep links corretos.\nDado deep link\nQuando clico\nEntão abre seção."}
+{"inputs": {"bug": "Analytics crash custom events (Firebase Analytics #34567)"}, "outputs": "Como usuário, quero analytics estável.\nDado evento custom\nQuando track\nEntão sem crash."}
+{"inputs": {"bug": "Widget resize not saved (React Native #67890)"}, "outputs": "Como usuário, quero widgets persistentes.\nDado resize\nQuando recarrego\nEntão tamanho mantido."}
+{"inputs": {"bug": "Biometric auth fails OS update (Flutter Biometric #90123)"}, "outputs": "Como usuário, quero biometria updates.\nDado OS update\nQuando fingerprint\nEntão autentica."}
+{"inputs": {"bug": "Table sort numeric columns broken (Angular #45678)"}, "outputs": "Como usuário, quero sort numérico.\nDado coluna numérica\nQuando header\nEntão ordena valor."}
+{"inputs": {"bug": "Offline drafts not saved (React Native #78901)"}, "outputs": "Como usuário offline, quero drafts local.\nDado offline\nQuando escrevo\nEntão salva localStorage."}
+{"inputs": {"bug": "Google Calendar sync fail (Flutter Calendar #23456)"}, "outputs": "Como usuário, quero sync Google Calendar.\nDado evento criado\nQuando sync\nEntão aparece Google."}
+{"inputs": {"bug": "Video stutter slow network (React Native Video #56789)"}, "outputs": "Como usuário, quero video adaptativo.\nDado rede lenta\nQuando reproduzo\nEntão baixa qualidade."}
+{"inputs": {"bug": "Form validation no focus invalid field (Angular Forms #89012)"}, "outputs": "Como usuário, quero foco auto erros.\nDado form inválido\nQuando submit\nEntão foca inválido."}
+{"inputs": {"bug": "Infinite loop on state update (React #12345)"}, "outputs": "Como usuário, quero updates estado sem loop infinito.\nDado state update\nQuando render\nEntão termina."}
+{"inputs": {"bug": "Memory leak on component unmount (React Native #45678)"}, "outputs": "Como usuário, quero componentes limpos memória.\nDado unmount\nQuando navego\nEntão sem leak."}
+{"inputs": {"bug": "SQL injection vuln login (Django #78901)"}, "outputs": "Como usuário, quero login seguro SQL.\nDado input malicioso\nQuando login\nEntão sanitizado."}
+{"inputs": {"bug": "CORS error API calls (Express #23456)"}, "outputs": "Como usuário, quero API calls cross-origin.\nDado frontend diferente domínio\nQuando call API\nEntão CORS OK."}
+{"inputs": {"bug": "Hot reload fails changes (Vite #56789)"}, "outputs": "Como desenvolvedor, quero hot reload funcional.\nDado código alterado\nQuando salvo\nEntão reload auto."}
+{"inputs": {"bug": "WebSocket disconnect silent (Socket.io #89012)"}, "outputs": "Como usuário, quero WebSocket reconecta.\nDado disconnect\nQuando rede volta\nEntão reconecta."}
+{"inputs": {"bug": "Lazy load images blur (Next.js #34567)"}, "outputs": "Como usuário, quero lazy images nítidas.\nDado scroll para imagem\nQuando carrega\nEntão sem blur."}
+{"inputs": {"bug": "Timezone mismatch dates (Moment.js #67890)"}, "outputs": "Como usuário, quero datas timezone corretas.\nDado timezone UTC\nQuando exibe\nEntão local time."}
+{"inputs": {"bug": "File upload progress stuck (Axios #90123)"}, "outputs": "Como usuário, quero progress upload real-time.\nDado upload\nQuando envia\nEntão barra progress atualiza."}
+{"inputs": {"bug": "Keyboard dismiss iOS glitch (React Native #45678)"}, "outputs": "Como usuário iOS, quero keyboard dismiss suave.\nDado keyboard aberto\nQuando tap fora\nEntão fecha."}
+{"inputs": {"bug": "GraphQL resolver timeout (Apollo #78901)"}, "outputs": "Como usuário, quero resolvers timeout handled.\nDado query lenta\nQuando executa\nEntão timeout graceful."}
+{"inputs": {"bug": "Stripe webhook duplicate (Next.js API #23456)"}, "outputs": "Como usuário, quero webhooks idempotentes.\nDado webhook duplicate\nQuando recebe\nEntão ignora dup."}
+{"inputs": {"bug": "Tailwind styles missing prod (Vite #56789)"}, "outputs": "Como usuário, quero styles Tailwind prod.\nDado build prod\nQuando carrega\nEntão CSS aplicado."}
+{"inputs": {"bug": "Prisma migration fail seed (Prisma #89012)"}, "outputs": "Como dev, quero migrations seed OK.\nDado prisma migrate\nQuando seed\nEntão DB populado."}
+{"inputs": {"bug": "Sentry error grouping wrong (Sentry #34567)"}, "outputs": "Como dev, quero erros grouped corretos.\nDado erros similares\nQuando Sentry\nEntão grouped."}
+{"inputs": {"bug": "PWA install prompt not showing (React #67890)"}, "outputs": "Como usuário, quero PWA install prompt.\nDado app visitado\nQuando eligible\nEntão mostra prompt."}
+{"inputs": {"bug": "i18n pluralization broken (i18next #90123)"}, "outputs": "Como usuário, quero plurais corretos i18n.\nDado count 1/5\nQuando traduz\nEntão '1 item'/'5 itens'."}
+{"inputs": {"bug": "Canvas render black screen WebGL (Three.js #45678)"}, "outputs": "Como usuário, quero Canvas WebGL render.\nDado WebGL context\nQuando render\nEntão sem black."}
+{"inputs": {"bug": "JWT expiry not refreshed (Auth0 #78901)"}, "outputs": "Como usuário logado, quero JWT refresh auto.\nDado token near expiry\nQuando call API\nEntão refresca."}
+{"inputs": {"bug": "Mapbox map lag zoom (React Native Maps #23456)"}, "outputs": "Como usuário, quero map zoom suave.\nDado zoom rápido\nQuando interajo\nEntão sem lag."}
+{"inputs": {"bug": "Cron job timezone wrong (Node-cron #56789)"}, "outputs": "Como dev, quero cron timezone correto.\nDado cron '* * * * *'\nQuando roda\nEntão horário local."}
+{"inputs": {"bug": "Excel export headers misaligned (SheetJS #89012)"}, "outputs": "Como usuário, quero Excel headers alinhados.\nDado export\nQuando abre Excel\nEntão colunas OK."}
+{"inputs": {"bug": "App crashes on invalid email login (React Native #12345)"}, "outputs": "Como usuário, quero validar emails antes login para evitar crashes.\nDado email inválido\nQuando clico login\nEntão exibe erro sem travar."}
+{"inputs": {"bug": "Save button doesn't persist data to DB (Flutter #45678)"}, "outputs": "Como usuário, quero salvar dados corretamente para manter progresso.\nDado form preenchido\nQuando clico salvar\nEntão persiste no DB."}
+{"inputs": {"bug": "NullPointerException on empty list access (Android #78901)"}, "outputs": "Como usuário, quero mensagem clara para listas vazias sem crash.\nDado lista vazia\nQuando acesso\nEntão exibe 'Nenhum item'."}
+{"inputs": {"bug": "UI freezes on long list scroll (React Native #23456)"}, "outputs": "Como usuário, quero scroll fluido em listas grandes.\nDado lista longa\nQuando scrolo\nEntão UI responde sem lag."}
+{"inputs": {"bug": "API 500 on auth failure (Node.js Express #56789)"}, "outputs": "Como usuário, quero erro amigável em auth inválida.\nDado credenciais erradas\nQuando login\nEntão exibe 'Credenciais inválidas'."}
+{"inputs": {"bug": "Search filter doesn't clear old results (Angular #89012)"}, "outputs": "Como usuário, quero filtro que limpa resultados anteriores.\nDado filtro novo\nQuando busco\nEntão remove antigos."}
+{"inputs": {"bug": "Push notifications fail offline (Firebase #34567)"}, "outputs": "Como usuário, quero notificações sincronizadas online.\nDado offline\nQuando reconecto\nEntão entrega pendentes."}
+{"inputs": {"bug": "Password logged in plain text debug (Django #67890)"}, "outputs": "Como usuário, quero senhas mascaradas nos logs.\nDado login\nQuando gera log\nEntão senha é ***."}

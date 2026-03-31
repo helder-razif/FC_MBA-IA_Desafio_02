@@ -1,0 +1,36 @@
+﻿# Ambiente virtual e cache (prioridade alta)
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+logs/
+
+# Pastas desnecessárias (ignorar completamente, sem deletar)
+trash/
+**/* copy/
+.vscode/
+.docker/
+datasets copy/
+
+# Arquivos sensíveis (nunca commitar chaves ou configs reais)
+.env
+.env.local
+*.key
+*.config
+*.pem
+
+# Arquivos do sistema Windows/Mac
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker (opcional, se não essencial para replicação)
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Qualquer pasta com 'copy' ou 'trash' no nome
+**/trash/
+**/copy/

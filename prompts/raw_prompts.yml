@@ -1,0 +1,25 @@
+source: hub
+data:
+  repo_handle: bug_to_user_story_v1
+  description: ''
+  readme: ''
+  id: e506aed4-c44c-4e24-85bd-eb8433b8318c
+  tenant_id: 9858ac0e-2ee8-47d2-bf23-2b9160692537
+  created_at: 2025-11-19 19:31:30.951363
+  updated_at: 2025-11-19 19:31:32.700361
+  is_public: true
+  is_archived: false
+  tags:
+  - ChatPromptTemplate
+  original_repo_id: null
+  upstream_repo_id: null
+  owner: leonanluppi
+  full_name: leonanluppi/bug_to_user_story_v1
+  num_likes: 1
+  num_downloads: 682
+  num_views: 82
+  liked_by_auth_user: false
+  last_commit_hash: 2950c33dbd7ffaed2e440b50adfd7769d183f90faf0bae5aa4864354f88e4073
+  num_commits: 1
+  original_repo_full_name: null
+  upstream_repo_full_name: null
